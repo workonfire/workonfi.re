@@ -15,12 +15,16 @@ body {
     color: black;
 }
 
+.red-text {
+    color: #d01c1c;
+}
+
 .dark-mode {
     background-color: black;
     color: white;
 }
 
-#github-logo {
+.logo {
     width: 30px;
     height: 30px;
 }
