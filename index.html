@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<!-- Wzium -->
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>workonfire</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        const projectId = new URL(window.location.href).searchParams.get('project');
+        if (projectId != null) window.location.replace("https://github.com/workonfire/" + projectId);
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            document.getElementById('github-logo').classList.toggle('inverted-colors');
+            document.getElementById('dark-mode-toggle').classList.toggle('inverted-colors');
+        }
+    </script>
+
+    <div class="container">
+        <h1>workonfire</h1>
+        <p>Wieczny wziumownik</p><br>
+        <a href="https://github.com/workonfire">
+            <img id="github-logo" alt="GitHub logo" src="assets/github-logo.png">
+        </a>
+    </div>
+
+    <div class="dark-mode-button">
+        <input id="dark-mode-toggle" type="image" src="assets/dark-mode-icon.png"
+               value="Dark mode" onclick="toggleDarkMode()" alt="Dark mode toggle button">
+    </div>
+</body>
+
+</html>

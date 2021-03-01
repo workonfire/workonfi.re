@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+ }
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#github-logo {
+    width: 30px;
+    height: 30px;
+}
+
+ .inverted-colors {
+    filter: invert(1);
+}
+
+#dark-mode-toggle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
