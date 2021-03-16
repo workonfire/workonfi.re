@@ -14,7 +14,8 @@
     src: url("assets/JetBrainsMono-Bold.woff2");
 }
 
-.container {
+/* Thanks to Barbarossa! */
+#container {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -25,6 +26,10 @@
     justify-content: center;
     font-family: monospace;
  }
+
+.body-transition {
+    transition: all 0.2s ease-in-out;
+}
 
 body {
     background-color: white;
@@ -39,6 +44,17 @@ h1 {
 #description {
     font-size: 15px;
     font-family: "JetBrains Mono", serif;
+}
+
+#icon-container {
+    font-size: 0;
+}
+
+#icon-info {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "JetBrains Mono", serif;
+    font-weight: bold;
 }
 
 .red-text {
@@ -64,6 +80,12 @@ h1 {
 .logo {
     width: 30px;
     height: 30px;
+    transition: transform .2s;
+    margin: 10px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
 }
 
  .inverted-colors {
