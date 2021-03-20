@@ -41,6 +41,11 @@ h1 {
     font-family: "Orange Typewriter", serif;
 }
 
+#fire-icon {
+    height: 96px;
+    width: 96px;
+}
+
 #description {
     text-align: center;
     font-size: 15px;
