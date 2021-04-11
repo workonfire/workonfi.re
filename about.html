@@ -5,7 +5,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/fonts.css">
+    <link rel="stylesheet" media="screen and (max-height: 800px)" href="stylesheets/phone.css">
+    <link rel="stylesheet" media="screen and (min-height: 800px)" href="stylesheets/computer.css">
+    <link rel="stylesheet" href="stylesheets/global.css">
     <link rel="icon" type="image/png" href="favicon.ico"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>workonfi.re</title>
@@ -15,11 +18,25 @@
     <script type="text/javascript" src="scripts/dark_mode.js"></script>
 
     <div id="container">
-        <img id="fire-icon" src="assets/icons/fire-icon.png" alt="Fire icon">
-        <h1><span class="red-text">work</span>on<span class="red-text">fire</span></h1>
-        <p id="description">
-            Wieczny <span id="wzium">wzium</span>ownik <br> <br>
-            Tutaj kiedyś coś będzie. Na razie nic nie ma.
+        <h1>About me</h1>
+        <p class="description">
+            My name's <b>Krystian</b>, I'm <b>18</b> and I live in <b>Poland</b>. <br>
+            I'm an incredibly lazy person, that codes from time to time. <br>
+            I like <b>80s music</b>, <b>food</b> and <b>looking at beautiful things</b>.
+        </p> <br>
+        <h1>Experience</h1>
+        <p class="description">
+            I started to learn programming in <b>July, 2016</b>. I don't think I can evaluate my experience, because
+            in my opinion, an enormous amount of time was wasted through all of these years and I didn't use the time
+            well enough to learn things.
+            <br> <br>
+            Although, I have experience with <b>Python</b>, <b>Java</b>, <b>PHP</b> and <b>Linux</b>.
+        </p> <br>
+        <h1>Skills</h1>
+        <p class="description">
+            I always try to write good and optimized code. I might fail, but when it happens, feel free to fix my
+            mistakes. That's why I love open-source programming. If you want to see my projects, go to my
+            <a class="link" href="https://github.com/workonfire">GitHub page</a>.
         </p> <br>
         <div id="icon-container">
             <a href="index.html">
@@ -29,7 +46,7 @@
     </div>
 
     <div>
-        <input id="dark-mode-toggle" type="image" src="assets/icons/dark-mode-icon.png"
+        <input id="dark-mode-toggle" type="image" src="assets/icons/dark-mode-icon.webp"
                value="Dark mode" alt="Dark mode toggle button">
     </div>
 

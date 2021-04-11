@@ -1,0 +1,74 @@
+.body-transition {
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Tox Typewriter", serif;
+}
+
+#fire-icon {
+    height: 96px;
+    width: 96px;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: #575757;
+}
+
+.description {
+    font-size: 15px;
+    font-family: "JetBrains Mono", serif;
+}
+
+#icon-container {
+    font-size: 0;
+}
+
+#icon-info {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "JetBrains Mono", serif;
+    font-weight: bold;
+}
+
+.red-text {
+    color: #d01c1c;
+}
+
+.dark-mode {
+    background-color: #1e2021;
+    color: white;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    transition: transform .2s;
+    margin: 10px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+ .inverted-colors {
+    filter: invert(1);
+}
+
+#dark-mode-toggle {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Tox Typewriter";
+    src: url("../assets/fonts/Tox Typewriter.ttf");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../assets/fonts/JetBrainsMono-Regular.woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    src: url("../assets/fonts/JetBrainsMono-Bold.woff2");
+}
