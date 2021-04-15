@@ -72,3 +72,23 @@ h1 {
     bottom: 15px;
     left: 15px;
 }
+
+#dzejus {
+    font-family: "JetBrains Mono", serif;
+    font-style: italic;
+    transition: transform .2s;
+    text-decoration: none;
+    cursor: default;
+}
+
+#dzejus:hover {
+    transform: scale(1.2);
+}
+
+.hidden {
+    display: none;
+}
+
+.dzejus-shown {
+    display: inline-block;
+}
