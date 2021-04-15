@@ -1,7 +1,7 @@
 function showIconCaption(iconName) {
     let values = {
         'github-logo': "GitHub",
-        'about-me-icon': "O mnie"
+        'about-me-icon': "About me"
     };
     for (let key in values)
         if (iconName === key) document.getElementById('icon-info').innerHTML = values[key];
